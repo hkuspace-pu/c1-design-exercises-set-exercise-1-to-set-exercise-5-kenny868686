@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/reviewRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/reviewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Review Details"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="150dp"/>
+
+    <LinearLayout
+        android:id="@+id/reviewList"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/reviewTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="40dp"
+        android:divider="@android:color/transparent"
+        android:showDividers="middle"
+        android:dividerPadding="16dp"
+        android:layout_marginBottom="58dp">
+
+        <TextView
+            android:id="@+id/textReviewDate"
+            style="@style/Widget.InfoChip"
+            android:text="Date: 12 Dec 2025"/>
+
+        <TextView
+            android:id="@+id/textReviewTime"
+            style="@style/Widget.InfoChip"
+            android:layout_marginTop="16dp"
+            android:text="Time: 6:30PM"/>
+
+        <TextView
+            android:id="@+id/textReviewGuest"
+            style="@style/Widget.InfoChip"
+            android:layout_marginTop="16dp"
+            android:text="Guest: 2"/>
+
+        <TextView
+            android:id="@+id/textReviewPhone"
+            style="@style/Widget.InfoChip"
+            android:layout_marginTop="16dp"
+            android:text="Phone: 12345678"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonNextReview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:background="@drawable/bg_primary_button"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toBottomOf="@id/reviewList"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="60dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
