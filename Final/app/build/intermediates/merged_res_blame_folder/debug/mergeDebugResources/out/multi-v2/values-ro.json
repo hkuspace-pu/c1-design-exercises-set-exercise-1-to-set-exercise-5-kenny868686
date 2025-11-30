@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.firstapp_l4.app-mergeDebugResources-30:/values-ro/values-ro.xml",
+            "outputFile": "com.example.firstapp_l4.app-mergeDebugResources-29:/values-ro/values-ro.xml",
             "map": [
                 {
                     "source": "/Users/chunglaikei/.gradle/caches/8.9/transforms/1ad575f43947b03a783ce6261c36d507/transformed/material-1.12.0/res/values-ro/values-ro.xml",

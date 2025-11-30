@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:2:1-59:12
-INJECTED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:2:1-59:12
-INJECTED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:2:1-59:12
-INJECTED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:2:1-59:12
+ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:2:1-32:12
 MERGED from [com.google.android.material:material:1.12.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/1ad575f43947b03a783ce6261c36d507/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/chunglaikei/.gradle/caches/8.9/transforms/0531c441d025d6953daac5b1f7e2814c/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/8d2be96f8522ee4f1c76ca40240a8529/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
@@ -11,13 +11,11 @@ MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/chunglaikei/.gradle/cach
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/99697423288e2f94c2e977b0bb0158be/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.5.4] /Users/chunglaikei/.gradle/caches/8.9/transforms/521a7e168a690482f6a524465f920712/transformed/fragment-1.5.4/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.9.2] /Users/chunglaikei/.gradle/caches/8.9/transforms/ffb29aa0aa981683828037407778377b/transformed/activity-1.9.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.gridlayout:gridlayout:1.0.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/25816497d73137c2800af6918eb3cd0c/transformed/gridlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/chunglaikei/.gradle/caches/8.9/transforms/22f0a010ee6930206bf947c1a023a2b8/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/9a59804116c6607f1f3bd3c5efaa00a5/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/074de988b2424f4e5e35accc561beca0/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.transition:transition:1.5.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/8ce90fbe1f080bcba20042bbcfa8c893/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/32bdc2e7e393083dc395eadcb353b0c3/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/2896f6072e675426a0fb8f3c86dc0efb/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/f48198c9f9fd4485c33d8505cae794bc/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/d42f19df156ac8ce44fcfa78fa262354/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/chunglaikei/.gradle/caches/8.9/transforms/59e94031d8ecbaacba614fc09b6a1885/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:17:1-22:12
@@ -33,10 +31,7 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/chung
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/1c8c871fb89a105d8d6536c3baa42f95/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/09dbfc47f742911cbcc90e248e969f5d/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/0ed017e9c466d5aa408a102125c6caf6/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/233a24b3f7cdb5844f1d1f5eac17aed9/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.1.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/eaae9a5a6bfc03bf6e48d0377418f466/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/f852e72500167ac4ab42e1a8e2590a2d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/75a394017c00a1c1b0772b3b80bb95b6/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.13.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/96ac2b7d1e42fdf6e7b010d75f3ea71b/transformed/core-1.13.0/AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/7f53c0177b8b5cf5692ef9ca400e4127/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/chunglaikei/.gradle/caches/8.9/transforms/3b5779f465d69d2129858088e40d0a0c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
@@ -51,18 +46,17 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.print:print:1.0.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/9f20565fd0387c5f1ee48807a1048629/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/ee1454f74b5457bff09c0da5f47527b1/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
 	package
+		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:3:5-38
 		INJECTED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml
-	xmlns:tools
-		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:5:5-57:19
-INJECTED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:5:5-57:19
+ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:5:5-30:19
+INJECTED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:5:5-30:19
 MERGED from [com.google.android.material:material:1.12.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/1ad575f43947b03a783ce6261c36d507/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/1ad575f43947b03a783ce6261c36d507/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/chunglaikei/.gradle/caches/8.9/transforms/0531c441d025d6953daac5b1f7e2814c/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -84,87 +78,61 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/chun
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/96ac2b7d1e42fdf6e7b010d75f3ea71b/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:10:9-41
-	android:fullBackupContent
-		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:8:9-54
+		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:8:9-37
 	android:roundIcon
-		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:11:9-54
-	tools:targetApi
-		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:14:9-29
+		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:7:9-43
 	android:allowBackup
 		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:13:9-50
-	android:dataExtractionRules
-		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:7:9-65
-activity#com.example.firstapp_l4.UserPage
-ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:16:9-18:40
+		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:11:9-50
+activity#com.example.firstapp_l4.SplashActivity
+ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:14:9-21:20
 	android:exported
-		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:18:13-37
+		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:16:13-36
 	android:name
-		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:17:13-37
-activity#com.example.firstapp_l4.BookingSuccessActivity
-ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:20:9-22:40
-	android:exported
-		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:22:13-37
-	android:name
-		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:21:13-51
-activity#com.example.firstapp_l4.ConfirmBookingActivity
-ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:24:9-26:40
-	android:exported
-		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:26:13-37
-	android:name
-		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:25:13-51
-activity#com.example.firstapp_l4.ReviewDetailsActivity
-ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:28:9-30:40
-	android:exported
-		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:30:13-37
-	android:name
-		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:29:13-50
-activity#com.example.firstapp_l4.GuestInfoActivity
-ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:32:9-34:40
-	android:exported
-		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:34:13-37
-	android:name
-		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:33:13-46
-activity#com.example.firstapp_l4.SelectTimeActivity
-ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:36:9-38:40
-	android:exported
-		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:38:13-37
-	android:name
-		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:37:13-47
-activity#com.example.firstapp_l4.SelectDateActivity
-ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:40:9-42:40
-	android:exported
-		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:42:13-37
-	android:name
-		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:41:13-47
-activity#com.example.firstapp_l4.HomeActivity
-ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:44:9-46:40
-	android:exported
-		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:46:13-37
-	android:name
-		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:45:13-41
-activity#com.example.firstapp_l4.MainActivity
-ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:48:9-55:20
-	android:exported
-		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:50:13-36
-	android:name
-		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:49:13-41
+		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:15:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:51:13-54:29
+ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:17:13-20:29
 action#android.intent.action.MAIN
-ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:52:17-69
+ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:52:25-66
+		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:53:17-77
+ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:53:27-74
+		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:19:27-74
+activity#com.example.firstapp_l4.HomeActivity
+ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:23:9-50
+	android:name
+		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:23:19-47
+activity#com.example.firstapp_l4.SelectDateActivity
+ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:24:9-56
+	android:name
+		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:24:19-53
+activity#com.example.firstapp_l4.SelectTimeActivity
+ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:25:9-56
+	android:name
+		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:25:19-53
+activity#com.example.firstapp_l4.GuestInfoActivity
+ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:26:9-55
+	android:name
+		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:26:19-52
+activity#com.example.firstapp_l4.ReviewDetailsActivity
+ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:27:9-59
+	android:name
+		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:27:19-56
+activity#com.example.firstapp_l4.ConfirmBookingActivity
+ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:28:9-60
+	android:name
+		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:28:19-57
+activity#com.example.firstapp_l4.BookingSuccessActivity
+ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:29:9-60
+	android:name
+		ADDED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml:29:19-57
 uses-sdk
 INJECTED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/Final/app/src/main/AndroidManifest.xml
@@ -183,8 +151,6 @@ MERGED from [androidx.fragment:fragment:1.5.4] /Users/chunglaikei/.gradle/caches
 MERGED from [androidx.fragment:fragment:1.5.4] /Users/chunglaikei/.gradle/caches/8.9/transforms/521a7e168a690482f6a524465f920712/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.9.2] /Users/chunglaikei/.gradle/caches/8.9/transforms/ffb29aa0aa981683828037407778377b/transformed/activity-1.9.2/AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.9.2] /Users/chunglaikei/.gradle/caches/8.9/transforms/ffb29aa0aa981683828037407778377b/transformed/activity-1.9.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.gridlayout:gridlayout:1.0.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/25816497d73137c2800af6918eb3cd0c/transformed/gridlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.gridlayout:gridlayout:1.0.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/25816497d73137c2800af6918eb3cd0c/transformed/gridlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/chunglaikei/.gradle/caches/8.9/transforms/22f0a010ee6930206bf947c1a023a2b8/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/chunglaikei/.gradle/caches/8.9/transforms/22f0a010ee6930206bf947c1a023a2b8/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/9a59804116c6607f1f3bd3c5efaa00a5/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
@@ -195,8 +161,6 @@ MERGED from [androidx.transition:transition:1.5.0] /Users/chunglaikei/.gradle/ca
 MERGED from [androidx.transition:transition:1.5.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/8ce90fbe1f080bcba20042bbcfa8c893/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/32bdc2e7e393083dc395eadcb353b0c3/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/32bdc2e7e393083dc395eadcb353b0c3/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/2896f6072e675426a0fb8f3c86dc0efb/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/2896f6072e675426a0fb8f3c86dc0efb/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/f48198c9f9fd4485c33d8505cae794bc/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/f48198c9f9fd4485c33d8505cae794bc/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/d42f19df156ac8ce44fcfa78fa262354/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
@@ -227,14 +191,8 @@ MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/chunglaikei/.gradle/cach
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/09dbfc47f742911cbcc90e248e969f5d/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/0ed017e9c466d5aa408a102125c6caf6/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/0ed017e9c466d5aa408a102125c6caf6/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/233a24b3f7cdb5844f1d1f5eac17aed9/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/233a24b3f7cdb5844f1d1f5eac17aed9/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.1.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/eaae9a5a6bfc03bf6e48d0377418f466/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/eaae9a5a6bfc03bf6e48d0377418f466/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/f852e72500167ac4ab42e1a8e2590a2d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/f852e72500167ac4ab42e1a8e2590a2d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/75a394017c00a1c1b0772b3b80bb95b6/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/75a394017c00a1c1b0772b3b80bb95b6/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.13.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/96ac2b7d1e42fdf6e7b010d75f3ea71b/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.13.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/96ac2b7d1e42fdf6e7b010d75f3ea71b/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/chunglaikei/.gradle/caches/8.9/transforms/7f53c0177b8b5cf5692ef9ca400e4127/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44

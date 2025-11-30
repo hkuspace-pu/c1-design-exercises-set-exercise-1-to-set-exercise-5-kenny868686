@@ -4,147 +4,135 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white">
+    android:background="@color/background">
 
     <TextView
-        android:id="@+id/dateTitle"
+        android:id="@+id/tvSelectDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Select Date"
-        android:textSize="32sp"
+        android:layout_marginTop="180dp"
+        android:text="@string/select_date"
+        android:textColor="@color/primaryText"
+        android:textSize="26sp"
         android:textStyle="bold"
-        android:textColor="@android:color/black"
-        android:layout_marginTop="5dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/row1"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintVertical_chainStyle="packed"
-        app:layout_constraintVertical_bias="0.4"/>
-
-    <LinearLayout
-        android:id="@+id/row1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:layout_marginTop="58dp"
-        app:layout_constraintTop_toBottomOf="@id/dateTitle"
-        app:layout_constraintBottom_toTopOf="@id/row2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
-
-        <Button style="@style/Widget.DateChip" android:id="@+id/btnDay1"
-            android:layout_width="56dp" android:layout_height="56dp"
-            android:textSize="16sp" android:layout_margin="4dp"
-            android:paddingHorizontal="0dp" android:text="1"/>
-        <Button style="@style/Widget.DateChip" android:id="@+id/btnDay2"
-            android:layout_width="56dp" android:layout_height="56dp"
-            android:textSize="16sp" android:layout_margin="4dp"
-            android:paddingHorizontal="0dp" android:text="2"/>
-        <Button style="@style/Widget.DateChip" android:id="@+id/btnDay3"
-            android:layout_width="56dp" android:layout_height="56dp"
-            android:textSize="16sp" android:layout_margin="4dp"
-            android:paddingHorizontal="0dp" android:text="3"/>
-        <Button style="@style/Widget.DateChip" android:id="@+id/btnDay4"
-            android:layout_width="56dp" android:layout_height="56dp"
-            android:textSize="16sp" android:layout_margin="4dp"
-            android:paddingHorizontal="0dp" android:text="4"/>
-        <Button style="@style/Widget.DateChip" android:id="@+id/btnDay5"
-            android:layout_width="56dp" android:layout_height="56dp"
-            android:textSize="16sp" android:layout_margin="4dp"
-            android:paddingHorizontal="0dp" android:text="5"/>
-        <Button style="@style/Widget.DateChip" android:id="@+id/btnDay6"
-            android:layout_width="56dp" android:layout_height="56dp"
-            android:textSize="16sp" android:layout_margin="4dp"
-            android:paddingHorizontal="0dp" android:text="6"/>
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/row2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@id/row1"
-        app:layout_constraintBottom_toTopOf="@id/buttonNextDate"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
-
-        <Button
-            style="@style/Widget.DateChip"
-            android:id="@+id/btnDay7"
-            android:layout_width="56dp"
-            android:layout_height="56dp"
-            android:layout_margin="4dp"
-            android:paddingHorizontal="0dp"
-            android:textSize="16sp"
-            android:text="7"/>
-
-        <Button
-            style="@style/Widget.DateChip"
-            android:id="@+id/btnDay8"
-            android:layout_width="56dp"
-            android:layout_height="56dp"
-            android:layout_margin="4dp"
-            android:paddingHorizontal="0dp"
-            android:textSize="16sp"
-            android:text="8"/>
-
-        <Button
-            style="@style/Widget.DateChip"
-            android:id="@+id/btnDay9"
-            android:layout_width="56dp"
-            android:layout_height="56dp"
-            android:layout_margin="4dp"
-            android:paddingHorizontal="0dp"
-            android:textSize="16sp"
-            android:text="9"/>
-
-        <Button
-            style="@style/Widget.DateChip"
-            android:id="@+id/btnDay10"
-            android:layout_width="56dp"
-            android:layout_height="56dp"
-            android:layout_margin="4dp"
-            android:paddingHorizontal="0dp"
-            android:textSize="16sp"
-            android:text="10"/>
-
-        <Button
-            style="@style/Widget.DateChip"
-            android:id="@+id/btnDay11"
-            android:layout_width="56dp"
-            android:layout_height="56dp"
-            android:layout_margin="4dp"
-            android:paddingHorizontal="0dp"
-            android:textSize="16sp"
-            android:text="11"/>
-
-        <Button
-            style="@style/Widget.DateChip"
-            android:id="@+id/btnDay12"
-            android:layout_width="56dp"
-            android:layout_height="56dp"
-            android:layout_margin="4dp"
-            android:paddingHorizontal="0dp"
-            android:textSize="16sp"
-            android:text="12"/>
-    </LinearLayout>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/buttonNextDate"
+        android:id="@+id/btnNextDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="88dp"
-        android:background="@drawable/bg_primary_button"
-        android:text="Next"
-        android:textColor="@android:color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/bg_button_shadow"
+        android:text="@string/next"
+        android:textAllCaps="true"
+        android:textColor="@color/primaryText"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/row2" />
+        app:layout_constraintTop_toBottomOf="@id/gridDates" />
+
+    <GridLayout
+        android:id="@+id/gridDates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:alignmentMode="alignMargins"
+        android:columnCount="6"
+        android:rowCount="2"
+        android:useDefaultMargins="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvSelectDate">
+
+        <!-- 1-12 buttons -->
+        <!-- reuse same style; actual selection由 Java 改 background -->
+        <Button
+            android:id="@+id/btnDate1"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:background="@drawable/bg_date_unselected"
+            android:text="1"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnDate2"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:background="@drawable/bg_date_unselected"
+            android:text="2"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnDate3"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:background="@drawable/bg_date_unselected"
+            android:text="3"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnDate4"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:background="@drawable/bg_date_unselected"
+            android:text="4"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnDate5"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:background="@drawable/bg_date_unselected"
+            android:text="5"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnDate6"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:background="@drawable/bg_date_unselected"
+            android:text="6"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnDate7"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:background="@drawable/bg_date_unselected"
+            android:text="7"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnDate8"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:background="@drawable/bg_date_unselected"
+            android:text="8"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnDate9"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:background="@drawable/bg_date_unselected"
+            android:text="9"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnDate10"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:background="@drawable/bg_date_unselected"
+            android:text="10"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnDate11"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:background="@drawable/bg_date_unselected"
+            android:text="11"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnDate12"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:background="@drawable/bg_date_unselected"
+            android:text="12"
+            android:textAllCaps="false" />
+
+    </GridLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

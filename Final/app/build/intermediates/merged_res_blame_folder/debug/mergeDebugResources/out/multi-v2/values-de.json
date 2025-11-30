@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.firstapp_l4.app-mergeDebugResources-30:/values-de/values-de.xml",
+            "outputFile": "com.example.firstapp_l4.app-mergeDebugResources-29:/values-de/values-de.xml",
             "map": [
                 {
                     "source": "/Users/chunglaikei/.gradle/caches/8.9/transforms/96ac2b7d1e42fdf6e7b010d75f3ea71b/transformed/core-1.13.0/res/values-de/values-de.xml",

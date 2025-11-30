@@ -17,42 +17,18 @@
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-        android:dataExtractionRules="@xml/data_extraction_rules"
         android:debuggable="true"
         android:extractNativeLibs="false"
-        android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="RestaurantGo"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.restaurantgo" >
+        android:theme="@style/Theme.RestaurantGo" >
+
+        <!-- Splash = Launcher -->
         <activity
-            android:name="com.example.firstapp_l4.UserPage"
-            android:exported="false" />
-        <activity
-            android:name="com.example.firstapp_l4.BookingSuccessActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.firstapp_l4.ConfirmBookingActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.firstapp_l4.ReviewDetailsActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.firstapp_l4.GuestInfoActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.firstapp_l4.SelectTimeActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.firstapp_l4.SelectDateActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.firstapp_l4.HomeActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.firstapp_l4.MainActivity"
+            android:name="com.example.firstapp_l4.SplashActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -60,6 +36,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.firstapp_l4.HomeActivity" />
+        <activity android:name="com.example.firstapp_l4.SelectDateActivity" />
+        <activity android:name="com.example.firstapp_l4.SelectTimeActivity" />
+        <activity android:name="com.example.firstapp_l4.GuestInfoActivity" />
+        <activity android:name="com.example.firstapp_l4.ReviewDetailsActivity" />
+        <activity android:name="com.example.firstapp_l4.ConfirmBookingActivity" />
+        <activity android:name="com.example.firstapp_l4.BookingSuccessActivity" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

@@ -2,86 +2,100 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/guestRoot"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white">
+    android:background="@color/background">
 
     <TextView
-        android:id="@+id/guestTitle"
+        android:id="@+id/tvGuestInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Guest Information"
-        android:textSize="28sp"
+        android:text="@string/guest_information"
+        android:textColor="@color/secondaryText"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="150dp"/>
+        app:layout_constraintVertical_bias="0.18"/>
 
     <LinearLayout
-        android:id="@+id/guestForm"
+        android:id="@+id/layoutFields"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintTop_toBottomOf="@id/guestTitle"
+        app:layout_constraintTop_toBottomOf="@id/tvGuestInfo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginStart="40dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginTop="40dp">
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="32dp">
 
         <EditText
-            android:id="@+id/editGuestName"
+            android:id="@+id/etName"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
+            android:background="@drawable/bg_pill_grey"
             android:hint="Name (Required)"
-            android:background="@drawable/bg_primary_button"
-            android:padding="12dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:inputType="textPersonName"/>
 
-        <EditText
-            android:id="@+id/editGuestPhone"
+        <Space
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="12dp" />
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/bg_pill_grey"
             android:hint="Phone (Required)"
-            android:background="@drawable/bg_primary_button"
-            android:padding="12dp"
-            android:layout_marginTop="16dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:inputType="phone"/>
 
-        <EditText
-            android:id="@+id/editGuestCount"
+        <Space
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Guests (Required)"
-            android:background="@drawable/bg_primary_button"
-            android:padding="12dp"
-            android:layout_marginTop="16dp"
-            android:inputType="number"/>
+            android:layout_height="12dp" />
 
         <EditText
-            android:id="@+id/editNotes"
+            android:id="@+id/etGuests"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
+            android:background="@drawable/bg_pill_grey"
+            android:hint="Guests (Required)"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:inputType="number"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="12dp" />
+
+        <EditText
+            android:id="@+id/etNotes"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/bg_pill_grey"
             android:hint="Notes (Optional)"
-            android:background="@drawable/bg_primary_button"
-            android:padding="12dp"
-            android:layout_marginTop="16dp"
-            android:inputType="text"/>
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:inputType="textCapSentences"/>
 
     </LinearLayout>
 
     <Button
-        android:id="@+id/buttonNextGuest"
+        android:id="@+id/btnNextGuest"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Next"
-        android:background="@drawable/bg_primary_button"
-        android:textColor="@android:color/black"
-        app:layout_constraintTop_toBottomOf="@id/guestForm"
+        android:text="@string/next"
+        android:background="@drawable/bg_button_shadow"
+        android:textAllCaps="true"
+        android:textColor="@color/primaryText"
+        app:layout_constraintTop_toBottomOf="@id/layoutFields"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="60dp"/>
+        android:layout_marginTop="40dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

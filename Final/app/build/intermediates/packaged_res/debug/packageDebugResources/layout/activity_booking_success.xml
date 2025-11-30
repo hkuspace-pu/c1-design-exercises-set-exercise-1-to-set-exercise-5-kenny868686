@@ -2,61 +2,85 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/successRoot"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white">
-
-    <TextView
-        android:id="@+id/textSuccessMessage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Booking Success"
-        android:textSize="28sp"
-        android:textStyle="bold"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="250dp"/>
+    android:background="@color/background">
 
     <LinearLayout
-        android:id="@+id/successButtons"
+        android:id="@+id/layoutSuccess"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintTop_toBottomOf="@id/textSuccessMessage"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="40dp">
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/tvSuccessTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/booking_success_title"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/secondaryText"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tvSuccessDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date: 12 Dec 2025"
+            android:layout_marginTop="8dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tvSuccessTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time: 6:00PM"
+            android:gravity="center" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="32dp"/>
 
         <Button
-            android:id="@+id/buttonBookingConfirmed"
-            android:layout_width="220dp"
-            android:layout_height="48dp"
-            android:text="Booking Confirmed"
-            android:background="@drawable/bg_primary_button"
-            android:textColor="@android:color/black"/>
+            android:id="@+id/btnBookingConfirmed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/booking_confirmed"
+            android:background="@drawable/bg_button_shadow"
+            android:textColor="@color/primaryText"
+            android:textAllCaps="true"
+            android:layout_gravity="center_horizontal"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp"/>
 
         <Button
-            android:id="@+id/buttonAddCalendar"
-            android:layout_width="220dp"
-            android:layout_height="48dp"
-            android:text="Add to Calendar"
-            android:background="@drawable/bg_primary_button"
-            android:textColor="@android:color/black"
-            android:layout_marginTop="16dp"/>
+            android:id="@+id/btnAddToCalendar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_to_calendar"
+            android:background="@drawable/bg_button_shadow"
+            android:textColor="@color/primaryText"
+            android:textAllCaps="true"
+            android:layout_gravity="center_horizontal"/>
 
     </LinearLayout>
 
     <TextView
-        android:id="@+id/successNote"
+        android:id="@+id/tvFooter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="System sends confirmation notification"
-        android:textSize="12sp"
+        android:textSize="10sp"
+        android:textColor="@color/secondaryText"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginBottom="40dp"/>
+        android:layout_marginBottom="24dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

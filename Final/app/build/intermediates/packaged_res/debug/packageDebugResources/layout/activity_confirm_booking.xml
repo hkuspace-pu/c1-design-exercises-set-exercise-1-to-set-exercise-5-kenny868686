@@ -2,72 +2,96 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/confirmRoot"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white">
+    android:background="@color/background">
 
     <TextView
-        android:id="@+id/confirmTitle"
+        android:id="@+id/tvConfirmTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="150dp"
-        android:text="Confirm Booking"
-        android:textSize="28sp"
+        android:text="@string/confirm_booking"
+        android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/secondaryText"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.18"/>
 
     <LinearLayout
-        android:id="@+id/confirmList"
+        android:id="@+id/layoutConfirm"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="40dp"
-        android:layout_marginTop="40dp"
         android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvConfirmTitle"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/confirmTitle">
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="32dp">
 
         <TextView
-            android:id="@+id/textConfirmDate"
-            style="@style/Widget.InfoChip"
-            android:text="Date: 12 Dec 2025" />
+            android:id="@+id/tvConfirmDate"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/bg_pill_grey"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="Date: 12 Dec 2025"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="12dp"/>
 
         <TextView
-            android:id="@+id/textConfirmTime"
-            style="@style/Widget.InfoChip"
-            android:layout_marginTop="16dp"
-            android:text="Time: 6:30PM" />
+            android:id="@+id/tvConfirmTime"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/bg_pill_grey"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="Time: 6:00PM"/>
 
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="12dp"/>
 
         <TextView
-            android:id="@+id/textConfirmGuest"
-            style="@style/Widget.InfoChip"
-            android:layout_marginTop="16dp"
-            android:text="Guest: 2" />
+            android:id="@+id/tvConfirmGuest"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/bg_pill_grey"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="Guest: 1"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="12dp"/>
 
         <TextView
-            android:id="@+id/textConfirmPhone"
-            style="@style/Widget.InfoChip"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Phone: 12345678" />
+            android:id="@+id/tvConfirmPhone"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/bg_pill_grey"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="Phone:"/>
 
     </LinearLayout>
 
     <Button
-        android:id="@+id/buttonConfirmBooking"
+        android:id="@+id/btnConfirm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:background="@drawable/bg_primary_button"
-        android:text="Confirm"
-        android:textColor="@android:color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        android:text="@string/confirm"
+        android:background="@drawable/bg_button_shadow"
+        android:textColor="@color/primaryText"
+        android:textAllCaps="true"
+        app:layout_constraintTop_toBottomOf="@id/layoutConfirm"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/confirmList" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

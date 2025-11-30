@@ -2,72 +2,99 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/reviewRoot"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white">
+    android:background="@color/background">
 
     <TextView
-        android:id="@+id/reviewTitle"
+        android:id="@+id/tvReviewTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Review Details"
-        android:textSize="28sp"
+        android:layout_marginTop="80dp"
+        android:text="@string/review_details"
+        android:textColor="@color/secondaryText"
+        android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="150dp"/>
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
-        android:id="@+id/reviewList"
+        android:id="@+id/layoutSummary"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="32dp"
         android:orientation="vertical"
-        app:layout_constraintTop_toBottomOf="@id/reviewTitle"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_margin="40dp"
-        android:divider="@android:color/transparent"
-        android:showDividers="middle"
-        android:dividerPadding="16dp"
-        android:layout_marginBottom="58dp">
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvReviewTitle">
 
         <TextView
-            android:id="@+id/textReviewDate"
-            style="@style/Widget.InfoChip"
-            android:text="Date: 12 Dec 2025"/>
+            android:id="@+id/tvReviewDate"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/bg_pill_grey"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="Date: 12 Dec 2025" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="12dp" />
 
         <TextView
-            android:id="@+id/textReviewTime"
-            style="@style/Widget.InfoChip"
-            android:layout_marginTop="16dp"
-            android:text="Time: 6:30PM"/>
+            android:id="@+id/tvReviewTime"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/bg_pill_grey"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="Time: 6:00PM" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="12dp" />
 
         <TextView
-            android:id="@+id/textReviewGuest"
-            style="@style/Widget.InfoChip"
-            android:layout_marginTop="16dp"
-            android:text="Guest: 2"/>
+            android:id="@+id/tvReviewGuest"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/bg_pill_grey"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="Guest: 1" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="12dp" />
 
         <TextView
-            android:id="@+id/textReviewPhone"
-            style="@style/Widget.InfoChip"
-            android:layout_marginTop="16dp"
-            android:text="Phone: 12345678"/>
+            android:id="@+id/tvReviewPhone"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/bg_pill_grey"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="Phone:" />
 
     </LinearLayout>
 
     <Button
-        android:id="@+id/buttonNextReview"
+        android:id="@+id/btnNextReview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Next"
-        android:background="@drawable/bg_primary_button"
-        android:textColor="@android:color/black"
-        app:layout_constraintTop_toBottomOf="@id/reviewList"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_button_shadow"
+        android:text="@string/next"
+        android:textAllCaps="true"
+        android:textColor="@color/primaryText"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="60dp"/>
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layoutSummary" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

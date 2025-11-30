@@ -1,45 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="gray">#FFEEEEEE</color>
-    <color name="orange">#FFFFA726</color>
-    <color name="purple_500">#FFFFFFFF</color>
-    <color name="purple_700">#FFFFFFFF</color>
-    <color name="teal_200">#FF03DAC5</color>
+    <color name="accent">#19C5B8</color>
+    <color name="background">#FFFFFFFF</color>
+    <color name="button_shadow">#22000000</color>
+    <color name="chip_bg">#E6E6E6</color>
+    <color name="primaryText">#474747</color>
+    <color name="secondaryText">#A0A0A0</color>
+    <color name="time_chip_bg">#F6D6D6</color>
+    <color name="white">#FFFFFF</color>
+    <string name="add_to_calendar">ADD TO CALENDAR</string>
     <string name="app_name">RestaurantGo</string>
-    <string name="enter_your_name">Enter your name</string>
-    <string name="submit">Submit</string>
-    <style name="Theme.restaurantgo" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+    <string name="book_a_table">BOOK A TABLE</string>
+    <string name="booking_confirmed">BOOKING CONFIRMED</string>
+    <string name="booking_success_title">Booking Success!</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="confirm_booking">Confirm Booking</string>
+    <string name="guest_information">Guest Information</string>
+    <string name="home_title">Home</string>
+    <string name="next">NEXT</string>
+    <string name="review_details">Review Details</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_time">Select Time</string>
+    <style name="Theme.RestaurantGo" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorPrimaryVariant">@color/accent</item>
         <item name="colorOnPrimary">@android:color/white</item>
-
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorOnSecondary">@android:color/black</item>
-
-        <item name="android:statusBarColor">@color/purple_700</item>
+        <item name="android:statusBarColor">@android:color/white</item>
         <item name="android:navigationBarColor">@android:color/white</item>
-    </style>
-    <style name="Widget">
-    </style>
-    <style name="Widget.DateChip">
-        <item name="android:layout_width">40dp</item>
-        <item name="android:layout_height">40dp</item>
-        <item name="android:background">@drawable/bg_chip_neutral</item>
-        <item name="android:textColor">@android:color/black</item>
-        <item name="android:textSize">16sp</item>
-    </style>
-    <style name="Widget.InfoChip">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:background">@drawable/bg_primary_button</item>
-        <item name="android:padding">12dp</item>
-        <item name="android:textColor">@android:color/black</item>
-    </style>
-    <style name="Widget.TimeChip">
-        <item name="android:layout_width">120dp</item>
-        <item name="android:layout_height">40dp</item>
-        <item name="android:background">@drawable/bg_chip_neutral</item>
-        <item name="android:textColor">@android:color/black</item>
-        <item name="android:textSize">16sp</item>
+        <item name="android:windowBackground">@color/background</item>
     </style>
 </resources>

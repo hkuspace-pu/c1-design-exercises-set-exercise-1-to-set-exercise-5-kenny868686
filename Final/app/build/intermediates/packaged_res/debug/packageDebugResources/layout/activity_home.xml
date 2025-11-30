@@ -2,37 +2,37 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/homeRoot"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white">
+    android:background="@color/background">
 
     <TextView
-        android:id="@+id/homeTitle"
+        android:id="@+id/tvHomeTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Home"
-        android:textSize="32sp"
+        android:text="@string/home_title"
+        android:layout_marginTop="102dp"
+        android:textColor="@color/secondaryText"
+        android:textSize="28sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btnBook"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="192dp"
-        app:layout_constraintVertical_bias="0.216" />
+        app:layout_constraintVertical_bias="0.3" />
 
     <Button
-        android:id="@+id/buttonBookTable"
-        android:layout_width="220dp"
-        android:layout_height="56dp"
-        android:layout_marginTop="192dp"
-        android:background="@drawable/bg_primary_button"
-        android:text="Book a Table"
-        android:textColor="@android:color/black"
-        android:textSize="18sp"
+        android:id="@+id/btnBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="236dp"
+        android:background="@drawable/bg_button_shadow"
+        android:text="@string/book_a_table"
+        android:textAllCaps="true"
+        android:textColor="@color/primaryText"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/homeTitle" />
+        app:layout_constraintTop_toBottomOf="@id/tvHomeTitle" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
