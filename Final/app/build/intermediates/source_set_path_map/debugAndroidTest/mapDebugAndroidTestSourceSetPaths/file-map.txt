@@ -1,0 +1,5 @@
+com.example.firstapp_l4.test.app-core-1.6.1-0 /Users/chunglaikei/.gradle/caches/8.9/transforms/12d4ceea12d68d94d028487ee64e9ffc/transformed/core-1.6.1/res
+com.example.firstapp_l4.test.app-androidTest-1 /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/APP_Git/app/build/generated/res/resValues/androidTest/debug
+com.example.firstapp_l4.test.app-mergeDebugAndroidTestResources-2 /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/APP_Git/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.firstapp_l4.test.app-mergeDebugAndroidTestResources-3 /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/APP_Git/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.firstapp_l4.test.app-debugAndroidTest-4 /Users/chunglaikei/Google_Drive/School/HKU_CS/Year1_Retake/Software Engineer/CW1/APP_Git/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
